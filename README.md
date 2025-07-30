@@ -6,6 +6,8 @@
 
 [streamlit-audiorec 0.1.3](https://pypi.org/project/streamlit-audiorec/)を使用
 
+※ `/.streamlit/config.toml` は色設定のためだけです。（無視してください）
+
 ## 機能
 
 - 🎙️ ブラウザから音声録音
