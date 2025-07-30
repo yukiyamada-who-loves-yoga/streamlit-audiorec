@@ -8,7 +8,8 @@ st.set_page_config(
 )
 
 st.title("🎤 録音")
-st.write("参考：https://github.com/sachin-kumar-s/st-audiorec")
+st.write("ライブラリ：https://pypi.org/project/streamlit-audiorec/")
+st.write("GitHub：https://github.com/yukiyamada-who-loves-yoga/streamlit-audiorec")
 
 wav_audio_data = st_audiorec()
 
