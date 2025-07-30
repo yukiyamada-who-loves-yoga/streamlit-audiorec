@@ -11,14 +11,14 @@ st.title("🎤 録音")
 
 wav_audio_data = st_audiorec()
 
-if wav_audio_data is not None:
-    st.audio(wav_audio_data, format='audio/wav')
-    
-    filename = f"recording_{datetime.now().strftime('%Y%m%d_%H%M%S')}.wav"
-    
-    st.download_button(
-        label="ダウンロード",
-        data=wav_audio_data,
-        file_name=filename,
-        mime="audio/wav"
-    )
+
+# 以下は、手動で音声ダウンロードする場合の参考コード
+# if wav_audio_data is not None:
+#     st.audio(wav_audio_data, format='audio/wav')
+        
+#     st.download_button(
+#         label="ダウンロード",
+#         data=wav_audio_data,
+#         file_name=f"recording_{datetime.now().strftime('%Y%m%d_%H%M%S')}.wav",
+#         mime="audio/wav"
+#     )
