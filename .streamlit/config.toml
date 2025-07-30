@@ -1,7 +1,3 @@
-[browser]
-# タブのタイトルを設定
-gatherUsageStats = false
-
 [theme]
 # テーマ設定
 primaryColor = "#FF9AA2"
