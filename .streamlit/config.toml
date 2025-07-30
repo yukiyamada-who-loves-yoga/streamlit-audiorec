@@ -4,10 +4,7 @@ gatherUsageStats = false
 
 [theme]
 # テーマ設定
-# primaryColor = "#FF6B6B"
-primaryColor = "#cceecc"
-backgroundColor = "#cceeee"
-# backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#7788bb" 
-# textColor = "#262730" 
+primaryColor = "#FF9AA2"
+backgroundColor = "#FFB7B2"
+secondaryBackgroundColor = "#FFDAC1"
+textColor = "#4A4A4A" 
