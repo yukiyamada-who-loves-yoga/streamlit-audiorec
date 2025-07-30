@@ -8,9 +8,9 @@ st.set_page_config(
 )
 
 st.title("🎤 録音")
+st.write("参考：https://github.com/sachin-kumar-s/st-audiorec")
 
 wav_audio_data = st_audiorec()
-
 
 # 以下は、手動で音声ダウンロードする場合の参考コード
 # if wav_audio_data is not None:
