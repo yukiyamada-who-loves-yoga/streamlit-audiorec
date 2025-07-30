@@ -1,2 +1,2 @@
-streamlit
-st-audiorec
+streamlit>=1.28.0
+st-audiorec>=1.0.0
