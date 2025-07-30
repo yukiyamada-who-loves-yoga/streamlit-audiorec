@@ -1,8 +1,9 @@
 # Streamlit Audio Recorder
 
+[アプリURL](https://audiorec-app.streamlit.app/)
+
 🎤 シンプルな音声録音アプリケーションです。Streamlitを使用してWebブラウザから音声を録音し、ダウンロードすることができます。
 
-[アプリURL](https://audiorec-app.streamlit.app/)
 
 ## 機能
 
