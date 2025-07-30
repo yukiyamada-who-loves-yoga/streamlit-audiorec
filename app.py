@@ -2,6 +2,7 @@ import streamlit as st
 from st_audiorec import st_audiorec
 from datetime import datetime
 
+# タブのタイトルとアイコン設定
 st.set_page_config(
     page_title="録音(st-audiorec)",
     page_icon="🎤",
@@ -11,6 +12,7 @@ st.title("🎤 録音")
 st.write("ライブラリ：https://pypi.org/project/streamlit-audiorec/")
 st.write("GitHub：https://github.com/yukiyamada-who-loves-yoga/streamlit-audiorec")
 
+# この１行だけでよい
 wav_audio_data = st_audiorec()
 
 # 以下は、手動で音声ダウンロードする場合の参考コード
