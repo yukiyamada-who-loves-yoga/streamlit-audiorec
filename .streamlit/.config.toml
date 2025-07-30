@@ -1,0 +1,10 @@
+[browser]
+# タブのタイトルを設定
+gatherUsageStats = false
+
+[theme]
+# テーマ設定
+primaryColor = "#cceecc"
+backgroundColor = "#cceeee"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#7788bb" 
