@@ -4,6 +4,7 @@
 
 🎤 シンプルな音声録音アプリケーションです。Streamlitを使用してWebブラウザから音声を録音し、ダウンロードすることができます。
 
+※[streamlit-audiorec 0.1.3](https://pypi.org/project/streamlit-audiorec/)を使用
 
 ## 機能
 
